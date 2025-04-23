@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout"
-import Seo from "../components/seo"
+import SEO from "../components/seo"
 import { MainContent } from '../styles/base'
 
 const AboutPage = () => (
@@ -45,5 +45,8 @@ const AboutPage = () => (
     </Layout>
 )
 
-export const Head = () => <Seo title="About" />
+export const Head = () => <SEO
+    title="Sobre mim"
+    description="Saiba um pouco mais sobre o desenvolvedor por trás deste blog."
+/>
 export default AboutPage
