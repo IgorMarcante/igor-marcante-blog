@@ -25,7 +25,7 @@ const Avatar = () => {
     return (
         <S.AvatarWrapper
             image={avatarImage.childImageSharp.gatsbyImageData}
-
+            alt="Avatar"
         />
     );
 };

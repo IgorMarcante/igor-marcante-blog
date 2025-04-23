@@ -29,9 +29,9 @@ import { FaHome as Home} from "react-icons/fa";
           <S.MenuBarLink to="/" cover direction="right" bg={getThemeColor()} duration={0.6} title="Voltar para Home">
             <S.MenuBarItem><Home /></S.MenuBarItem>
           </S.MenuBarLink>
-          <S.MenuBarLink to="/search/" cover direction="right" bg={getThemeColor()} duration={0.6} title="Pesquisar">
+          {/* <S.MenuBarLink to="/search/" cover direction="right" bg={getThemeColor()} duration={0.6} title="Pesquisar">
             <S.MenuBarItem><Search /></S.MenuBarItem>
-          </S.MenuBarLink>
+          </S.MenuBarLink> */}
         </S.MenuBarGroup>
         <S.MenuBarGroup>
           <S.MenuBarItem
