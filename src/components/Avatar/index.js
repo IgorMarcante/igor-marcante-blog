@@ -13,8 +13,7 @@ const Avatar = () => {
                             width: 60
                             height: 60
                             placeholder: BLURRED
-                            backgroundColor: "transparent"
-                            layout: CONSTRAINED
+                            formats: [AUTO, WEBP, AVIF]
                         )
                     }
                 }
