@@ -6,7 +6,6 @@ import { FaHome as Home} from "react-icons/fa";
  import { FaRegLightbulb as Light} from "react-icons/fa";
  import { BsFillGrid3X3GapFill as Grid} from "react-icons/bs";
  import { FaList as List  } from "react-icons/fa";
- import getThemeColor from '../../utils/getThemeColor'
 
  import * as S from "./styled"
  const MenuBar = () => {
@@ -26,12 +25,12 @@ import { FaHome as Home} from "react-icons/fa";
     return (
       <S.MenuBarWrapper>
         <S.MenuBarGroup>
-          <S.MenuBarLink to="/" cover direction="right" bg={getThemeColor()} duration={0.6} title="Voltar para Home">
+          <S.MenuBarLink to="/" title="Voltar para Home">
             <S.MenuBarItem><Home /></S.MenuBarItem>
           </S.MenuBarLink>
-          {/* <S.MenuBarLink to="/search/" cover direction="right" bg={getThemeColor()} duration={0.6} title="Pesquisar">
+          <S.MenuBarLink to="/search/" title="Pesquisar">
             <S.MenuBarItem><Search /></S.MenuBarItem>
-          </S.MenuBarLink> */}
+          </S.MenuBarLink>
         </S.MenuBarGroup>
         <S.MenuBarGroup>
           <S.MenuBarItem

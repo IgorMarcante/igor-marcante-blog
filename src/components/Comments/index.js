@@ -1,6 +1,6 @@
 import React from "react"
  import PropTypes from "prop-types"
- import ReactDisqusComments from "react-disqus-comments"
+//  import ReactDisqusComments from "react-disqus-comments"
  
  import * as S from "./styled"
  
@@ -10,12 +10,12 @@ import React from "react"
    return (
      <S.CommentsWrapper>
        <S.CommentsTitle>Comentários</S.CommentsTitle>
-       <ReactDisqusComments
+       {/* <ReactDisqusComments
          shortname="igormarcante-1"
          identifier={completeURL}
          title={title}
          url={completeURL}
-       />
+       /> */}
      </S.CommentsWrapper>
    )
  }
