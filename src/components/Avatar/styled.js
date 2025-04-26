@@ -6,4 +6,9 @@ export const AvatarWrapper = styled(GatsbyImage)`
     height: 3.75rem;
     margin: auto;
     width: 3.75rem;
+
+      @media (max-width: 769px) {  
+    height: 1.875rem;
+    width: 1.875rem;
+  }
 `

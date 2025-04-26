@@ -14,6 +14,7 @@ const Avatar = () => {
                             height: 60
                             placeholder: BLURRED
                             formats: [AUTO, WEBP, AVIF]
+                            outputPixelDensities: [0.5, 1, 2]
                         )
                     }
                 }

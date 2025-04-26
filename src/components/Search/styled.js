@@ -17,10 +17,16 @@ export const SearchWrapper = styled.section`
   .ais-SearchBox,
   .ais-Stats {
     padding: 0.5rem 3rem;
+    @media (max-width: 769px) {  
+      padding: 0.5rem 1rem;
+    }
   }
 
   .ais-SearchBox {
     padding-top: 6rem;
+      @media (max-width: 769px) {  
+      padding-top: 1rem;
+    }
   }
 
   .ais-Stats {

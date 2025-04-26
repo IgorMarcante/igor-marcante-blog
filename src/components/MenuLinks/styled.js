@@ -1,7 +1,11 @@
 import styled from "styled-components"
  import { Link } from "gatsby"
  
- export const MenuLinksWrapper = styled.nav``
+ export const MenuLinksWrapper = styled.nav`
+     @media (max-width: 769px) {  
+           display: none;
+        }
+      `
  
  export const MenuLinksList = styled.ul`
    font-size: 1.2rem;

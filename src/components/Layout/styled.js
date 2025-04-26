@@ -2,6 +2,9 @@ import styled from "styled-components"
 
 export const LayoutWrapper = styled.section`
   display: flex;
+   @media (max-width: 769px) {  
+    flex-direction: column;
+  }
 `
 
 export const LayoutMain = styled.main`
@@ -15,4 +18,7 @@ export const LayoutMain = styled.main`
       "posts"
       "pagination";
   }
+         @media (max-width: 769px) {  
+        padding: 4.125rem 0 3rem 0;
+        }
 `

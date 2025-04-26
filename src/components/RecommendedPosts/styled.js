@@ -17,6 +17,12 @@ import styled from "styled-components"
    text-decoration: none;
    transition: background 0.5s;
    width: 50%;
+
+    @media (max-width: 768px) {
+      padding: 2rem 1rem;
+      line-height: 1.3;
+      font-size: .9rem;
+    }
  
    &:hover {
      background: var(--borders);

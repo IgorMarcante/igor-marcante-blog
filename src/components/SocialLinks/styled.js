@@ -3,6 +3,9 @@ import styled from "styled-components"
 export const SocialLinksWrapper = styled.nav`
  margin: 2rem auto;
  width: 100%;
+     @media (max-width: 769px) {  
+           display: none;
+        }
 `
 
 export const SocialLinksList = styled.ul`

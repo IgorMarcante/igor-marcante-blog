@@ -7,6 +7,11 @@ export const PaginationWrapper = styled.section`
    display: flex;
    padding: 1.5rem 3rem;
    justify-content: space-between;
+
+     @media (max-width: 768px) {
+      font-size: .8rem;
+      padding: 1rem;
+    }
  
    a {
      color: #8899a6;

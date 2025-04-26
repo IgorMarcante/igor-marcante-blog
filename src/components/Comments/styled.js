@@ -5,6 +5,11 @@ import styled from "styled-components"
    max-width: 70rem;
    padding: 3rem 6.4rem 3rem;
  
+    @media (max-width: 768px) {
+         padding: 3rem 1.4rem 0;
+     max-width: 100%;
+    }
+
    iframe[src*="ads-iframe"] {
      display: none;
    }
@@ -21,4 +26,7 @@ import styled from "styled-components"
    font-size: 2.1rem;
    font-weight: 700;
    padding-bottom: 2rem;
+     @media (max-width: 768px) {
+      font-size: 1.375rem;
+    }
  `

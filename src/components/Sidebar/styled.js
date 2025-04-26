@@ -11,4 +11,10 @@ export const SidebarWrapper = styled.aside`
    padding: 2rem;
    text-align: center;
    width: 20rem;
+       @media (max-width: 769px) {  
+           align-items: flex-start;
+           height: auto;
+           padding: 1rem 2 rem;
+           width: 100%;
+        }
  `

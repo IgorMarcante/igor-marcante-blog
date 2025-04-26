@@ -13,15 +13,33 @@ export const MenuBarWrapper = styled.aside`
   position: fixed;
   right: 0;
   width: 3.75rem;
+  transitoion: 0.5s;
+        @media (max-width: 769px) {  
+          border-top: 1px solid var(--borders);
+          bottom: 0;
+          flex-direction: row;
+          height: auto;
+          padding: 0;
+          position: fixed;
+          width: 100%;
+        }
 `
 
 export const MenuBarGroup = styled.div`
   display: flex;
   flex-direction: column;
+  @media (max-width: 769px) { 
+    flex-direction: row;
+  }
 `
 
 export const MenuBarLink = styled(Link)`
   display: block;
+  &.active {
+     span {
+       color: var(--highlight);
+     }
+   }
 `
 
 export const MenuBarItem = styled.span`
@@ -43,5 +61,24 @@ export const MenuBarItem = styled.span`
 
   &:hover {
     color: var(--highlight);
+  }
+
+   &.display {
+     @media (max-width: 769px) {
+      display: none;
+     }
+   }
+
+  @media (min-width: 769px) {
+    &:hover {
+      color: var(--highlight);
+    }
+  }
+
+  @media (max-width: 769px) {
+    height: 3.2rem;
+    padding: 0.9rem;
+    position: relative;
+    width: 3.2rem;
   }
 `
