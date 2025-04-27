@@ -19,22 +19,20 @@ export const SocialLinksList = styled.ul`
 export const SocialLinksItem = styled.li``
 
 export const SocialLinksLink = styled.a`
- color: #8899a6;
- text-decoration: none;
- transition: color 0.5s;
+  color: var(--texts);
+  text-decoration: none;
+  transition: color 0.5s;
 
- &:hover {
-   color: #1fa1f2;
- }
+  &:hover{
+    color: var(--highlight);
+  }
 `
 
 export const IconWrapper = styled.div`
  fill: #bbb;
- width: 30px;
- height: 30px;
-      svg {
+  svg {
     display: block;
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.6rem;
+    height: 1.6rem;
   }
 `

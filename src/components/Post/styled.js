@@ -204,10 +204,6 @@ export const MainContent = styled.section`
  
    .gatsby-highlight {
      padding: 0 1.6rem 1.6rem;
-
-       @media (max-width: 768px) { 
-        padding: 0;
-       }
    }
  
    .instagram-media {
